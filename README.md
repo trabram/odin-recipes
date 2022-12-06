@@ -8,3 +8,4 @@ It covers :
 - Folder structure
 - HTML texts, links and images
 - Git commits
+- CSS styling
