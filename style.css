@@ -1,0 +1,45 @@
+body {
+  padding: 16px;
+}
+
+ul, ol {
+  list-style-position: inside;
+  padding: 0;
+}
+
+ul.list > li, ol.list > li {
+  margin-bottom: 4px;
+}
+
+ul.style-none > li {
+  list-style-type: none;
+  margin-bottom: 8px;
+}
+
+ul.style-none > li > a {
+  text-decoration: none;
+}
+
+h1.title {
+  text-align: center;
+  font-size: 40px;
+}
+
+img.food {
+  height: 400px;
+
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.font-sans {
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.font-serif {
+  font-family: Georgia, serif;
+}
